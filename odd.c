@@ -3,7 +3,7 @@ int main()
 {
   int i,f,l;
   printf("enter the first and last interval");
-  scanf("%d",&f,&l);
+  scanf("%d%d",&f,&l);
   for(i=f;i<=l;i=i+2)
 
     {
