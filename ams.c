@@ -3,13 +3,13 @@
 
 int main()
 {
-    int low, high, i, t1, t2, rem, n = 0, r = 0;
+    int l, h, i, t1, t2, rem, n = 0, r = 0;
 
     printf("Enter two numbers(intervals): ");
-    scanf("%d %d", &low, &high);
-    printf("Armstrong numbers between %d an %d are: ", low, high);
+    scanf("%d %d", &l, &h);
+    printf("Armstrong numbers between %d an %d are: ", l, h);
 
-    for(i = low + 1; i < high; ++i)
+    for(i = l + 1; i < h; ++i)
     {
         t2 = i;
         t1 = i;
