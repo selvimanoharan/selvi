@@ -1,8 +1,10 @@
-#include <stdio.h>
+#include<stdio.h>
 void main()
 {
-char c;
-printf("enter the character");
-scanf("%c",&c);
-printf("ascll value of %c=%d",c,c);
+  char a=32;
+  while(a<=127)
+  {
+    printf(" %c=[%03d]",a,a);
+    a++;
+  }
 }
