@@ -1,13 +1,13 @@
 #include<stdio.h>
 void main()
 {
-  int a,b,i,gcd;
+  int e,f,i,hcd;
   printf("enter the two number");
-  scanf("%d%d",&a,&b);
-  for(i=1;i<=a&&i<=b;i++)
+  scanf("%d%d",&e,&f);
+  for(i=1;i<=e&&i<=f;i++)
   {
-    if(a%i==0&&b%i==0)
-    gcd=i;
+    if(e%i==0&&f%i==0)
+    hcd=i;
   }
-printf("gcd no is %d",gcd);
+printf("gcd no is %d",hcd);
 }
