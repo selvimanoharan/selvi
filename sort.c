@@ -1,9 +1,10 @@
-#include <stdio.h>
+
+#include<stdio.h>
 int main()
 {
-	int a[50],i,j,n,temp;
+	int a[10],i,j,n,temp;
 	printf("enter the number");
-	scanf("d",&n);
+	scanf("%d",&n);
 	printf("list of element");
 	for(i=0;i<n;i++)
 	{
@@ -17,7 +18,7 @@ int main()
 	        {
 	        temp=a[i];
 	        a[i]=a[j];
-	        temp=a[j];
+	        a[j]=temp;
 	        }
 	}
 	}
