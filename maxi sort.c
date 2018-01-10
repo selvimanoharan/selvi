@@ -1,9 +1,9 @@
-#include <stdio.h>
+#include<stdio.h>
 int main()
 {
-	int a[50],i,j,n,temp;
+	int a[10],i,j,n,temp;
 	printf("enter the number");
-	scanf("d",&n);
+	scanf("%d",&n);
 	printf("list of element");
 	for(i=0;i<n;i++)
 	{
@@ -17,15 +17,16 @@ int main()
 	        {
 	        temp=a[i];
 	        a[i]=a[j];
-	        temp=a[j];
+	        a[j]=temp;
 	        }
 	}
 	}
 	printf("sorted list \n");
 	for(i=0;i<n;i++)
 	{
-	    printf("%d",a[i]);
+	    printf("%d\n",a[i]);
 	}
-	printf("maximum element is:",a[n-1]);
+	printf("maximam number is:");
+	printf("%d\n",a[n-1]);
 	return 0;
 }
