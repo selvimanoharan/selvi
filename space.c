@@ -14,5 +14,5 @@ void main()
 		    sum=sum+1;
 		}
 	}
-	printf("The no of character in the line is %d\n",sum);
+	printf("The no of  word in the line is %d\n",sum);
 }
