@@ -13,5 +13,5 @@ void main()
 		    sum=sum+1;
 		}
 	}
-	printf("The no of line in theparagraph %d\n",sum);
+	printf("The no of numeric in line %d\n",sum);
 }
