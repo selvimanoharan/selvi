@@ -1,17 +1,15 @@
 #include<stdio.h>
 int main()
 {
-  int a,b,c,n,i;
-  a=0;
-  b=1;
-  printf("enter the fibonacci ");
-  scanf("%d",&n);
-  for(i=1;i<=n;i++)
-  {
-    printf("%d",a);
-  c=a+b;
-  a=b;
-  b=c;
-  }
-  return 0;
+	int a=0, b=1,c,i,n;
+	printf("enter the number");
+	scanf("%d",&n);
+	printf("fibonacci series");
+	for(i=0;i<n;i++)
+	{
+		printf("%d",a);
+	c=a+b;
+	a=b;
+	b=c;
+	}
 }
