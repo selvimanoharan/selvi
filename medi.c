@@ -8,10 +8,7 @@ void main()
   scanf("%s",str);
   a=strlen(str);
   b='*';
-  for(i=0;i<a;i++)
-{
   str[a/2]=b;
-}
   
   for(i=0;i<a;i++)
   {
