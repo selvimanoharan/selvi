@@ -14,7 +14,7 @@ void main()
   {
     if(b[i]%2!=0)
     {
-      printf("%d",b[i]);
+      printf("%d ",b[i]);
     }
   }
 }
