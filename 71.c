@@ -2,33 +2,27 @@
 #include<string.h>
 void main()
 {
-  
-  int a,i,f=0,b;
+  int c=0,i,a;
   char str[10],str1[10];
   printf("enter the string");
   scanf("%s",&str);
-  
+  a=strlen(str);
   strcpy(str1,str);
-  a=strlen(str1);
-  for(i=a;i>=0;i--)
+  int j=0;
+  for(i=a-1;i>=0;i--)
   {
-    printf("%c",str1[i]);
-    
+    if(str[i]==str1[j])
+    {
+      c++;
+    }
+    j++;
   }
-  b=strlen(str);
-  for(i=0;i<a;i++)
+if(c==a)
 {
-  if(str[i]==str1[i])
-  {
-f++;
-  }
+  printf("yes");
 }
-if(f==b)
+else
 {
-  printf("\nyes");
+  printf("no");
 }
-  else
-  {
-    printf("\nNo");
-  }
 }
