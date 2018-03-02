@@ -1,15 +1,13 @@
 #include<stdio.h>
 void main()
 {
-  int n;
+  int n,i;
   printf("enter the num");
   scanf("%d",&n);
-  if(n%2==0)
+  while(n%2==0)
   {
-    printf("%d",n);
-    }
-  else
-  {
-    printf("%d",n);
+    i=n/2;
+    n=i;
   }
+  printf("%d",n);
 }
