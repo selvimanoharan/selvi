@@ -1,4 +1,4 @@
-#include<stdio.h>
+include<stdio.h>
 #include<string.h>
 void main()
 {
@@ -16,4 +16,3 @@ void main()
   }
   printf("%c",str[i]);
   }
-}
