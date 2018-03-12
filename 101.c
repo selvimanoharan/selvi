@@ -2,7 +2,7 @@
 #include<string.h>
 void main()
 {
-  int m,i,a;
+  int m,i,a,k=0;
   char n[14];
   printf("enter the string");
   scanf("%s",&n);
@@ -11,7 +11,8 @@ void main()
   scanf("%d",&m);
   for(i=a-1;i>=0;i--)
     {
-      if((i+1)>=m)
+    k++;
+      if(k<=m)
       {
       printf("%c",n[i]);
     }
