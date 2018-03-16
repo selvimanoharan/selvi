@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<string.h>
 void main()
 {
 int n,a[10],i,c,j;
@@ -11,14 +10,14 @@ for(i=1;i<=n;i++)
     c=0;
     for(j=1;j<=n;j++)
     {
-  if(i%2==0)
+  if(i%j==0)
   {
     c++;
   }
     }
   if(c==2)
   {
-    printf("%d",i);
+    printf("%d\t",i);
   }
   }
 }
