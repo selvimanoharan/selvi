@@ -9,7 +9,10 @@ void main()
     a=strlen(str);
     for(i=0;i<a;i++)
     {
+        if(str[i]>=97&&str[i]<=120)
         str[i]-=32;
+        else
+        str[i]+=32;
     }
     printf("%s",str);
 }
