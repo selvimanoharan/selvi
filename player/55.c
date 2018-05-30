@@ -1,7 +1,7 @@
 #include<stdio.h>
 void main()
 {
-    int c=0,i,j,a;
+    int b=0,i,j,a;
     char str[50],str1[50];
     printf("enter the 2 string");
     scanf("%s%s",str,str1);
@@ -11,11 +11,11 @@ void main()
     {
         if(str[i]==str1[j])
         {
-        c++;
+        b++;
     }
     j++;
     }
-    if(c==a)
+    if(b==a)
     {
         printf("yes");
     }
